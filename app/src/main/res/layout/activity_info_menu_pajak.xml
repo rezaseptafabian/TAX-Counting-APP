@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info_menu_pajak"
+    android:orientation="vertical"
+    android:background="@drawable/gradeint_bg1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/question_logo"
+        android:layout_gravity="center"/>
+
+
+    <ScrollView android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:text="INFO PAJAK"
+        android:textColor="@color/colorNavigationText"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pajak adalah pungutan wajib dari rakyat untuk negara. Setiap sen uang pajak yang dibayarkan rakyat akan masuk dalam pos pendapatan negara dari sektor pajak. Penggunaannya untuk membiayai belanja pemerintah pusat maupun daerah demi kesejahteraan masyarakat."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uang pajak digunakan untuk kepentingan umum, bukan untuk kepentingan pribadi. Pajak merupakan salah satu sumber dana pemerintah untuk mendanai pembangunan di pusat dan daerah, seperti membangun fasilitas umum, membiayai anggaran kesehatan dan pendidikan, dan kegiatan produktif lain. Pemungutan pajak dapat dipaksakan karena dilaksanakan berdasarkan undang-undang."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

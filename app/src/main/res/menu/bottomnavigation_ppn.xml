@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/back_kembali"
+        android:title="@string/back"
+        android:icon="@drawable/icon_back"/>
+
+    <item
+        android:id="@+id/info_menu"
+        android:title="@string/info"
+        android:icon="@drawable/icon_info"/>
+
+</menu>

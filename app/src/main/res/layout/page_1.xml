@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradeint_bg1"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/question_logo"
+        android:layout_gravity="center"></ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:text="About PBB"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"></TextView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pajak Bumi dan Bangunan adalah pungutan atas tanah dan bangunan yang muncul karena adanya keuntungan dan/atau kedudukan sosial ekonomi bagi seseorang atau badan yang memiliki suatu hak atasnya, atau memperoleh manfaat dari padanya."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dasar Pengenaan Pajak Bumi dan Bangunan"
+        android:textColor="@color/white"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NJOP merupakan harga rata-rata atau harga pasar pada transaksi jual beli tanah. Dalam hal ini, objek pajaknya adalah bumi dan bangunan. Setiap tahun, biasanya Menteri Keuangan dengan mendengarkan pertimbangan bupati/walikota menetapkan NJOP"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal">
+
+    </TextView>
+
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_right_alt_24"
+        android:layout_gravity="center"></ImageView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

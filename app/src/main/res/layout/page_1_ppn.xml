@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradeint_bg1"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/question_logo"
+        android:layout_gravity="center"></ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:text="About PPN"
+        android:textColor="@color/white"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pajak Pertambahan Nilai atau PPN adalah pungutan yang dibebankan atas transaksi jual-beli barang dan jasa yang dilakukan oleh wajib pajak pribadi atau wajib pajak badan yang telah menjadi Pengusaha Kena Pajak (PKP)."
+            android:textSize="20dp" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:text="Objek PPN"
+        android:textColor="@color/white"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yang dikenakan Pajak Pertambahan Nilai atau biasa disebut dengan Objek PPN adalah:"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Penyerahan Barang Kena Pajak (BKP) dan Jasa Kena Pajak (JKP) di dalam Daerah Pabean yang dilakukan oleh pengusaha"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Impor Barang Kena Pajak"
+        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Pemanfaatan Barang Kena Pajak tidak berwujud dari luar Daerah Pabean di dalam Daerah Pabean"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean di dalam Daerah Pabean"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Ekspor Barang Kena Pajak berwujud atau tidak berwujud dan Ekspor Jasa Kena Pajak oleh Pengusaha Kena Pajak (PKP)"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal">
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_right_alt_24"
+        android:layout_gravity="center"></ImageView>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

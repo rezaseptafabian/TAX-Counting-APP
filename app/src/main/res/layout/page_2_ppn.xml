@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradeint_bg1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_account_balance_24"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <ScrollView android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:text="Tarif PPN"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarif PPN menurut ketentuan Undang-Undang No.42 tahun 2009 pasal 7 :"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Tarif PPN (Pajak Pertambahan Nilai) adalah 10% (sepuluh persen)."
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Tarif PPN (Pajak Pertambahan Nilai) sebesar 0% (nol persen) diterapkan atas: Ekspor Barang Kena Pajak Berwujud, Ekspor Barang Kena Pajak Tidak Berwujud, Ekspor Jasa Kena Pajak"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Tarif pajak sebagaimana dimaksud pada ayat (1) dapat berubah menjadi paling rendah 5% (lima persen) dan paling tinggi sebesar 15% (lima belas persen) sebagaimana diatur oleh Peraturan Pemerintah."
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal">
+    </TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
+

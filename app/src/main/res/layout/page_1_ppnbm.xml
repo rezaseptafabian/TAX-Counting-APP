@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradeint_bg1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/question_logo"
+        android:layout_gravity="center"></ImageView>
+
+    <ScrollView android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:text="About PPNBM"
+        android:textColor="@color/white"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"></TextView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berdasarkan undang-undang yang berlaku di Indonesia, Pajak Penjualan Atas Barang Mewah (PPnBM) merupakan pajak yang dikenakan pada barang yang tergolong mewah yang dilakukan oleh produsen (pengusaha) untuk menghasilkan atau mengimpor barang tersebut dalam kegiatan usaha atau pekerjaannya."
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:text="Barang Kena Pajak yang Tergolong Mewah"
+        android:textColor="@color/white"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barang-barang yang tergolong mewah dan harus dikenai PPnBM ialah:"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Barang yang bukan merupakan barang kebutuhan pokok"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Barang yang hanya dikonsumsi oleh masyarakat tertentu"
+        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Barang yang hanya dikonsumsi oleh masyarakat berpenghasilan tinggi"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Barang yang dikonsumsi hanya untuk menunjukkan status atau kelas sosial"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal">
+    </TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_right_alt_24"
+        android:layout_gravity="center"></ImageView>
+</LinearLayout>
+

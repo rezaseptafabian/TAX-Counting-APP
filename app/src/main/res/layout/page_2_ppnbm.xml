@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradeint_bg1"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/question_logo"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:text="Kategori PPNBM"
+        android:textColor="@color/white"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Barang Kena Pajak Tergolong Mewah yang Dikenai PPnBM 20%"
+        android:textSize="20dp"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelompok hunian mewah seperti rumah mewah, apartemen, kondominium, town house, dan sejenisnya yang bisa dijadikan lokasi untuk Badan Usaha :"
+        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a. Rumah dan town house dari jenis non-strata title dengan harga jual sebesar Rp20.000.000.000 (Dua Puluh Miliar Rupiah) atau lebih."
+        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b. Apartemen kondominium, town house dari jenis strata title, dan sejenisnya dengan harga jual sebesar Rp10.000.000.000 (Sepuluh Miliar Rupiah) atau lebih."
+        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Barang Kena Pajak Tergolong Mewah yang Dikenai PPnBM 40%"        android:textSize="20dp"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Kelompok balon udara dan balon udara yang dapat dikemudikan, pesawat udara lainnya tanpa tenaga penggerak."
+        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Kelompok peluru senjata api dan senjata api lainnya, kecuali untuk keperluan negara; peluru dan bagiannya, tidak termasuk senapan angin."        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Barang Kena Pajak Tergolong Mewah yang Dikenai PPnBM 50%"        android:textSize="20dp"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelompok pesawat udara selain yang tercantum di atas, kecuali untuk keperluan negara atau angkutan udara niaga:"        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Helikopter dan Pesawat udara dan kendaraan udara lainnya, selain helikopter. "
+        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelompok pesawat udara selain yang tercantum di atas, kecuali untuk keperluan negara atau angkutan udara niaga:"        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelompok senjata api dan senjata api lainnya, kecuali untuk keperluan negara:"
+        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senjata artileri, Revolver dan Pistol, dan Senjata api (selain senjata artileri, revolver, dan pistol) dan peralatan semacam itu yang dioperasikan dengan penembakan bahan peledak."
+        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Barang Kena Pajak Tergolong Mewah yang Dikenai PPnBM 75%"
+        android:textSize="20dp"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelompok kapal pesiar mewah, kecuali untuk keperluan negara atau angkutan umum:"
+        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Kapal pesiar dan kendaraan air terutama yang dirancang untuk pengangkutan orang, kapal feri dari semua jenis, kecuali untuk kepentingan negara atau angkutan umum."
+        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Yacht, kecuali untuk kepentingan negara atau angkutan umum."
+        android:textSize="18dp">
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_right_alt_24"
+        android:layout_gravity="center"></ImageView>
+</LinearLayout>
+
+</ScrollView>
+
+
